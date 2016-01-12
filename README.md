@@ -16,8 +16,5 @@ th trainer.lua -save_every 1 -savefile seq2seq-new-wv650-rnn650 -dropout 0.5 -wo
 ```
 th generator.lua -gpuid 0 -model cv/seq2seq-new-wv650-rnn650-xxxxxx.t7
 ```
-
-## Author
-Woohyun Kim (deepcoord@gmail.com)
 =======
 # Musio_Conversation_Engine
