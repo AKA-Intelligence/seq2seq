@@ -1,3 +1,14 @@
+## Sequence to sequence RNN dialogue model
+
+The code in this repository is an implementation of the sequence to sequence
+model, with GRU/LSTM recurrent units. It was originally intended to be used for
+Musio's chat engine, however, it seems that several practical issues must be
+solved before production. For future work, the OOV (out-of-vocabulary) problem
+should be solved. In addition, we are working on a model with a dialogue-level
+context vector that stretches farther back that the one previous input.
+
+
+
 ## How to install
 ### Dependencies
 #### Web Service
